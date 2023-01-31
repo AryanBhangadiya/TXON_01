@@ -1,0 +1,135 @@
+body {
+    background-color: beige ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    margin-top: 0%;
+    height:80vh;
+    width: 100%;
+    background-image: url("Images/bg.png");
+}
+ 
+.navbar {
+    height: 127px;
+    width: 100%;
+    display: flex;
+    top: 0px;
+    cursor: pointer;
+}
+.nav-list {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    margin: left;
+}
+.logo{
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.list {
+    margin-left: 7%;
+    align-items: left;
+    justify-content: left;
+    display: inline-flex;
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a {
+    font-size: 20px;
+    font-style: inherit;
+    /* font-weight: bold; */
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-list li a:hover {
+    color: yellowgreen;
+}
+.btn {
+    align-items: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 50px;
+    float: left;
+}
+.nav-right {
+    margin-left: 26%;
+}
+.nav-right .btn1 {
+    background-color: darkolivegreen;
+}
+.nav-right .btn2 {
+    background-color: coral;
+}
+
+.nav-right .btn1:hover {
+    background: lightgreen;
+}
+h1 {
+    margin-top: 13%;
+    margin-left: 10%;
+    font-size: 60px;
+    /* font-weight: bold; */
+    align-items: center;
+    /* font-family:'Times New Roman', Times, serif; */
+}
+p {
+    font-size: 18px;
+    margin-left: 10%;
+}
+.btn3 {
+    color:whitesmoke;
+    background-color: red;
+    border-color: black;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 60px;
+    width: 172px;
+}
+.btn3:hover {
+    transform: rotateX(-30deg);
+    background: darkslategrey;
+}
+.imgProd1 {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.imgProd2 {
+    margin-left: 50%;
+    /* margin-right: 20%; */
+}
+
+.split {
+    /* margin-top: 127px; */
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 40px;
+}
+.left {
+    top: 25%;
+    left: 7%;
+}
+.right {
+    top: 19.5%;
+    /* background-color: olive;  */
+    right: 0%;
+} 
